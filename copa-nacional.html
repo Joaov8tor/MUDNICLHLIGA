@@ -2,34 +2,107 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Copa Nacional - CLH</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copa Nacional / CLH</title>
   <style>
-    body { background: #111; color: white; font-family: Arial; padding: 20px; }
-    h1 { color: #ff4b4b; }
-    a { color: #ff4b4b; text-decoration: none; }
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #111, #222);
+      color: #ffffff;
+    }
+
+    header {
+      background: linear-gradient(90deg, #d40000, #b30000);
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px #ff3333;
+    }
+
+    section {
+      padding: 40px 30px;
+    }
+
+    .section-title {
+      color: #ff4b4b;
+      font-size: 26px;
+      margin-bottom: 20px;
+      border-left: 5px solid #d40000;
+      padding-left: 10px;
+    }
+
+    ul li {
+      margin: 8px 0;
+      padding-left: 10px;
+    }
+
+    .youtube-link {
+      color: #ff4b4b;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .youtube-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #0d0d0d;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      color: #888;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
-  <h1>🏆 Copa Nacional - CLH</h1>
-  <p>Bem-vindo à página oficial da Copa Nacional.</p>
+  <header>
+    <h1>Copa Nacional / CLH</h1>
+    <p>Acompanhe os jogos e torneios da Copa Nacional CLH!</p>
+  </header>
 
-  <h2>📅 Próximos Jogos</h2>
-  <ul>
-    <li>16/04 - Santos vs Grêmio - 19h</li>
-    <li>17/04 - Bahia vs Fortaleza - 20h</li>
-  </ul>
+  <section id="calendario">
+    <h2 class="section-title">📅 Calendário de Jogos</h2>
+    <ul>
+      <li>14/04 - Flamengo vs Corinthians - 19h</li>
+      <li>15/04 - Milan vs PSG - 20h</li>
+    </ul>
+  </section>
 
-  <h2>📺 Transmissão</h2>
-  <p>Acompanhe os jogos ao vivo pelo nosso canal:</p>
-  <a href="https://www.youtube.com/@clhnew" target="_blank">🔗 youtube.com/@clhnew</a>
+  <section id="classificacao">
+    <h2 class="section-title">🏆 Classificação</h2>
+    <p>(Tabela em breve)</p>
+  </section>
 
-  <h2>📊 Classificação</h2>
-  <p>(Tabela em breve)</p>
+  <section id="transmissoes">
+    <h2 class="section-title">🎥 Transmissões</h2>
+    <p>Acesse nosso canal do YouTube para ver os jogos ao vivo:</p>
+    <a class="youtube-link" href="https://www.youtube.com/@clhnew" target="_blank">🔗 youtube.com/@clhnew</a>
+  </section>
 
-  <h2>📜 Regras</h2>
-  <ul>
-    <li>Jogos com horário marcado obrigatório.</li>
-    <li>Somente equipes nacionais participam.</li>
-  </ul>
+  <section id="regras">
+    <h2 class="section-title">📜 Regras da Copa Nacional</h2>
+    <ul>
+      <li>Respeito entre todos os participantes é obrigatório.</li>
+      <li>WO após 10 minutos de atraso.</li>
+      <li>Partidas com menos de 4 jogadores são invalidadas.</li>
+      <li>Acúmulo de cartões leva à suspensão.</li>
+      <li>Denúncias precisam de provas (vídeo ou print).</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Copa Nacional / CLH • Todos os direitos reservados</p>
+  </footer>
 </body>
 </html>
