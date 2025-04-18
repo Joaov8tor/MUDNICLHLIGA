@@ -3,6 +3,6 @@
     { "source": "/", "destination": "/index.html" },
     { "source": "/copa-nacional", "destination": "/copa-nacional.html" },
     { "source": "/copa-mundial", "destination": "/copa-mundial.html" }
-      { "source": "/times", "destination": "/times.html" }
+    { "source": "/times", "destination": "/times.html" }
   ]
 }
